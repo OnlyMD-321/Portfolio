@@ -4,11 +4,11 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/helper/scroll-to-top";
+import Logo from "../public/logo-_1_.ico";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
-import Logo from "../public/png/logo.png";
 
 export const metadata = {
   title: "Portfolio of Omlil Mouad - Software Developer",
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href={Logo} />
+        <link rel="icon" type="image/x-icon" href="/logo-_1_.ico" />
       </head>
       
       <body className={inter.className}>
