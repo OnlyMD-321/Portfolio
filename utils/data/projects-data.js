@@ -1,7 +1,8 @@
 import ayla from '/public/image/ayla.jpg';
 import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+import it from '/public/image/it.avif';
+import sm from '/public/image/sm.avif';
+import transit from '/public/image/transit.avif';
 
 export const projectsData = [
     {
@@ -24,26 +25,36 @@ export const projectsData = [
         demo: '',
         image: ayla,
     },
-    // {
-    //     id: 3,
-    //     name: 'ABRS-Consult',
-    //     description: 'A simple Wbsite that shows ',
-    //     tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-    //     code: '',
-    //     role: 'Full Stack Developer',
-    //     demo: '',
-    //     image: realEstate,
-    // },
-    // {
-    //     id: 4,
-    //     name: 'Newsroom Management',
-    //     description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-    //     tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-    //     code: '',
-    //     demo: '',
-    //     image: ayla,
-    //     role: 'Full Stack Developer',
-    // }
+    {
+        id: 3,
+        name: 'BRS-Consult',
+        description: 'A simple Website that shows the services of the company in the logistics sector .',
+        tools: ['Wordpress','Elementor','CSS', 'JS', 'JQuery', 'Bootstrap', 'PHP', 'MySQL', 'Git', 'GitHub', "Gmail Passkey"],
+        code: '',
+        role: 'Full Stack Developer',
+        demo: '',
+        image: transit,
+    },
+    {
+        id: 4,
+        name: 'Z Social Media',
+        description: "My team and I developed a social media platform called Z Social Media. The app allows users to create posts, like posts, comment on posts, and chat with other users in real-time.",
+        tools: ['ReactJS', 'Redux', 'NodeJS', 'ExpressJS', 'Socket.io', 'MongoDB', 'JWT', 'OAuth', 'Railway','Github', ],
+        code: '',
+        demo: '',
+        image: sm,
+        role: 'Full Stack Developer',
+    },
+    {
+        id: 5,
+        name: 'Cyberground.ma',
+        description: "I developed a simple web app called Cyberground.ma. This website shows the services of the company in the IT sector.",
+        tools: ['Wordpress', 'Elementor', 'CSS', 'JS', 'JQuery', 'Bootstrap', 'PHP', 'MySQL', 'Git', 'GitHub', "Gmail Passkey"],        
+        code: '',
+        demo: '',
+        image: it,
+        role: 'Full Stack Developer',
+    },
 ];
 
 
