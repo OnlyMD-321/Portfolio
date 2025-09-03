@@ -1,6 +1,7 @@
 const path = require('path')
  
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
@@ -23,4 +24,8 @@ module.exports = {
       },
     ],
   },
+  // Optimize for Vercel deployment
+  serverExternalPackages: ['nodemailer'],
 }
+
+module.exports = nextConfig

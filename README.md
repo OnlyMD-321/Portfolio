@@ -164,21 +164,48 @@ export const personalData = {
 
 # Deployment :rocket:
 
-Deploying the app to platforms like Vercel or Netlify is quick and easy.
+## Deploying to Vercel (Recommended):
 
-## Deploying to Vercel:
+### Prerequisites:
+- Push your code to a GitHub repository
+- Create a `.env.local` file from `.env.local.example` with your actual values
+
+### Step-by-Step Deployment:
 
 1. **Sign up or log in** to [Vercel](https://vercel.com/).
-2. Once logged in, click on **"New Project"**.
-3. Select your **GitHub repo** (the one that contains your forked project) and click **Import**.
-4. Configure your environment variables in the Vercel dashboard by adding each key from your `.env` file.
-   - E.g., `NEXT_PUBLIC_GTM`, `NEXT_PUBLIC_APP_URL`, `TELEGRAM_BOT_TOKEN`, etc.
-5. Click on **Deploy**. Vercel will automatically detect your Next.js app and build it.
-6. Once the deployment is complete, you can visit your live website!
 
-### Updating After Deployment
+2. **Import Your Project**:
+   - Click on **"New Project"**
+   - Select **"Import Git Repository"**
+   - Choose your GitHub repository and click **Import**
 
-Whenever you push changes to your GitHub repo, Vercel will automatically redeploy the app, keeping your portfolio up-to-date.
+3. **Configure Environment Variables**:
+   - In the project settings, go to **Environment Variables**
+   - Add the following variables (get values from your `.env.local`):
+     ```
+     EMAIL_ADDRESS=your-email@gmail.com
+     GMAIL_PASSKEY=your-gmail-app-password
+     TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+     TELEGRAM_CHAT_ID=your-telegram-chat-id
+     NEXT_PUBLIC_GTM=your-google-tag-manager-id
+     NEXT_PUBLIC_RECAPTCHA_SECRET_KEY=your-recaptcha-secret-key
+     NEXT_PUBLIC_APP_URL=https://your-domain.vercel.app
+     ```
+
+4. **Deploy**:
+   - Click **Deploy**
+   - Vercel will automatically detect your Next.js app and build it
+   - Once complete, you'll get a live URL!
+
+### Important Notes:
+- Set `NEXT_PUBLIC_APP_URL` to your actual Vercel domain (e.g., `https://your-portfolio.vercel.app`)
+- All environment variables starting with `NEXT_PUBLIC_` are exposed to the browser
+- The contact form requires proper email and Telegram configuration to work
+
+### Updating After Deployment:
+- Push changes to your GitHub repository
+- Vercel automatically redeploys on every push to main branch
+- Check the deployment status in your Vercel dashboard
 
 ## Deploying to Netlify:
 
