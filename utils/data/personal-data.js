@@ -6,7 +6,7 @@ export const personalData = {
   email: 'mouadomlil.321@gmail.com',
   phone: '+212653569089',
   address: 'Jamila 5 Bd Oued Eddahab Sbata 321, Casablanca, Morocco - 20440 ',
-  github: 'https://github.com/MDWalker2003',
+  github: 'https://github.com/OnlyMD-321',
   facebook: 'https://web.facebook.com/mouad.oml',
   linkedIn: 'https://www.linkedin.com/in/mouad-omlil/',
   twitter: 'https://x.com/OmlilMouad',
