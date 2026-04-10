@@ -1,26 +1,30 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Website Developer',
-    company: "Hypermag",
-    duration: "(Jul2022 - Sep2022)"
+    title: "Ingénieur en Automatisation et Intelligence",
+    company: "YT - Africa",
+    duration: "(Février 2026 - En cours)",
+    description: "Responsable de la conception et du développement de solutions d'automatisation des processus et de l'amélioration des systèmes de production."
   },
   {
     id: 2,
-    title: "Web Application Developer",
-    company: "CDMA Solution",
-    duration: "(Apr 2023 - Jun 2023)"
+    title: "Développeur d'application web et mobile",
+    company: "Cyberground",
+    duration: "(Juin 2024 - Décembre 2025)",
+    description: "Chargé de la conception et la création des applications Web et Mobile."
   }, 
   {
     id: 3,
-    title: "Web Designer",
-    company: "Lume Agency",
-    duration: "(Sep 2023 - Nov 2023)"
+    title: "Stage de fin d'étude en développement d'application Web",
+    company: "CDMA Solution",
+    duration: "(Avril 2023)",
+    description: "Création de l'application Web CDMA Solution (filtrage des réalisations de l'entreprise selon les domaines)."
   },
   {
     id: 4,
-    title: "Web FullStack Developer",
-    company: "Cyberground",
-    duration: "(Jun 2024 - Present)"
+    title: "Stage d'un mois en développement de site web",
+    company: "Hypermag",
+    duration: "(Juillet 2022)",
+    description: "Création de site web sur le store des articles de la société Hypermag."
   }
 ]
