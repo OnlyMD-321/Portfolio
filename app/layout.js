@@ -11,9 +11,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of OMLIL Mouad - Ingénieur Full Stack",
+  title: "Portfolio d'OMLIL Mouad / OMLIL Mouad Portfolio - Ingénieur Full Stack / Full-Stack Engineer",
   description:
-    "Portfolio d'OMLIL Mouad, Ingénieur Full Stack spécialisé en automatisation, développement web et optimisation des systèmes.",
+    "Portfolio bilingue d'OMLIL Mouad, Ingénieur Full Stack spécialisé en automatisation, développement web et optimisation des systèmes. / Bilingual portfolio of OMLIL Mouad, Full-Stack Engineer specialized in automation, web development, and systems optimization.",
 };
 
 export default function RootLayout({ children }) {

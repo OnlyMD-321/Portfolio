@@ -98,6 +98,10 @@ export const skillsImage = (skill) => {
       return angular;
     case 'javascript':
       return javascript;
+    case 'js':
+      return javascript;
+    case 'node js':
+      return javascript;
     case 'next js':
       return nextJS;
     case 'nuxt js':
@@ -215,6 +219,8 @@ export const skillsImage = (skill) => {
     case 'markdown':
       return markdown;
     case 'office':
+      return microsoftoffice;
+    case 'microsoft office':
       return microsoftoffice;
     case 'picsart':
       return picsart;
